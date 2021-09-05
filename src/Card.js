@@ -1,11 +1,10 @@
 import {
-  Button, Slider,
+  Button, FormControl, FormLabel, Heading, Slider,
   SliderFilledTrack,
-  SliderThumb, SliderTrack,
-  FormControl, FormLabel, Switch, Heading, Text,
-  useColorMode,
+  SliderThumb, SliderTrack, Switch, Text,
+  useColorMode
 } from '@chakra-ui/react';
-import { motion, useDragControls } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import ellipses from './Group 1.png';
